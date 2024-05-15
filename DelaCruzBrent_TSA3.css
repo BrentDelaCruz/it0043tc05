@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+.body {
+    text-align: center;
+    background-image: url(./black.avif);
+    background-size: cover;
+    color: white;
+}
+
+.heading {
+    background-color: black;
+    font-size: 2rem;
+}
+
+.subheading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white; 
+}
+
+
+.paragraph {
+    font-size: 1.5rem;
+    color: white; 
+}
+
+
+.pito {
+    font-weight: 700;
+    color: cyan; 
+}
+img{
+    height: 180px;
+}
