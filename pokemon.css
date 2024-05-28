@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.up{
+    background-image: url(bgcard.jpg);
+}
+
+.down{
+
+    background-color: rgb(202, 200, 98);
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    width:20%;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 10px 10px 10px black;
+    margin-top: 2%;
+}
+
+img{
+    height: 200px;
+    margin-top: 10%;
+}
+
+.typeelectric {
+    background-color: yellow;
+    display: inline;
+    padding: 2px 50px;
+    border-radius: 10px;
+    text-shadow:1.5px 1.5px 1.5px black;
+    color:white;
+
+
+}
+.type {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    display: inline;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+
+.name{
+    color: white;
+    text-shadow:2.5px 2.5px 2.5px black;
+    padding: 20px 0 20px 0;
+}
+
+.buttons .add{
+    background-color: rgb(219, 80, 111);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.buttons .add:hover{
+    opacity: 0.7;
+}
+.buttons .release{
+    background-color: rgb(21, 139, 41);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.buttons .release:hover{
+    opacity: 0.7;
+}
+.buttons{
+    padding: 0 0 20px 0;
+}
+
+.descrip{
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+
+.button .add{
+    background-color: rgb(219, 80, 111);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.button .add:hover{
+    opacity: 0.7;
+}
+.button .release{
+    background-color: rgb(21, 139, 41);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.button .release:hover{
+    opacity: 0.7;
+}
+.button{
+    padding: 0 0 20px 0;
+}
+.typez {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    display: inline;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.typewater {
+    background-color: rgb(105, 158, 219);
+    display: inline;
+    padding: 2px 50px;
+    border-radius: 10px;
+    color:white;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.downz{
+    background-color: rgba(24, 61, 226, 0.863);
+}
+
+
+.buttonz .add{
+    background-color: rgb(219, 80, 111);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.buttonz .add:hover{
+    opacity: 0.7;
+}
+.buttonz .release{
+    background-color: rgb(21, 139, 41);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.buttonz .release:hover{
+    opacity: 0.7;
+}
+.buttonz{
+    padding: 0 0 20px 0;
+}
+.types {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    display: inline;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.typefairy {
+    background-color: rgb(228, 35, 202);
+    display: inline;
+    padding: 2px 50px;
+    border-radius: 10px;
+    color:white;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.downs{
+    background-color: rgb(239, 118, 255);
+}
+
+
+
+.containers{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    width:20%;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 2%;
+}
+
+img{
+    height: 200px;
+    margin-top: 10%;
+}
+
+.typegrass {
+    background-color: rgb(77, 201, 61);
+    display: inline;
+    padding: 2px 50px;
+    border-radius: 10px;
+    text-shadow:1.5px 1.5px 1.5px black;
+    color:white;
+}
+
+.dwn{
+    background-color: rgb(35, 136, 35);
+}
+
+.t {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    display: inline;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+
+.name{
+    color: white;
+    text-shadow:2.5px 2.5px 2.5px black;
+    padding: 20px 0 20px 0;
+}
+
+.btn .add{
+    background-color: rgb(219, 80, 111);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.btn .add:hover{
+    opacity: 0.7;
+}
+.btn .release{
+    background-color: rgb(21, 139, 41);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.btn .release:hover{
+    opacity: 0.7;
+}
+.btn{
+    padding: 0 0 20px 0;
+}
+
+.descrip{
+    padding: 20px 0 20px 0;
+    color: white;
+}
+
+
+.buton .add{
+    background-color: rgb(219, 80, 111);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.buton .add:hover{
+    opacity: 0.7;
+}
+.buton .release{
+    background-color: rgb(21, 139, 41);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.buton .release:hover{
+    opacity: 0.7;
+}
+.buton{
+    padding: 0 0 20px 0;
+}
+.tp {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    display: inline;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.typewoter {
+    background-color: rgb(105, 158, 219);
+    display: inline;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color:white;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.typeground {
+    background-color: rgb(131, 117, 77);
+    display: inline;
+    padding: 2px 20px;
+    border-radius: 10px;
+    color:white;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.dw{
+    background-color: rgb(90, 73, 41);
+}
+
+
+.biton .add{
+    background-color: rgb(219, 80, 111);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.biton .add:hover{
+    opacity: 0.7;
+}
+.biton .release{
+    background-color: rgb(21, 139, 41);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color:white;
+}
+.biton .release:hover{
+    opacity: 0.7;
+}
+.biton{
+    padding: 0 0 20px 0;
+}
+.tpe {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:white;
+    display: inline;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.typefire {
+    background-color: rgb(238, 102, 12);
+    display: inline;
+    padding: 2px 50px;
+    border-radius: 10px;
+    color:white;
+    text-shadow:1.5px 1.5px 1.5px black;
+}
+.d{
+    background-color: rgba(182, 3, 3, 0.863);
+}
