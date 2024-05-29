@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 100%;
+}
+
+.body{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.flex-container{
+    border: 3px solid rgb(24, 65, 24);
+    padding: 90px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 50px;
+    gap: 10px; 
+
+}
+
+.box{
+    width: 250px;
+    flex-grow: 1;
+    border: 2px rgb(122, 15, 15);
+    color:rgb(251, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#poke1{
+    background-color: rgb(238, 255, 0);
+}
+
+#poke2{
+    background-color: rgb(226, 196, 162);
+}
+#poke3{
+    background-color: rgb(146, 32, 180);
+}
+#poke4{
+    background-color: rgb(226, 181, 224);
+}
+#poke5{
+    background-color: rgb(76, 29, 204);
+}
+#poke6{
+    background-color: rgb(119, 224, 250);
+}
+#poke7{
+    background-color: rgb(55, 170, 116);
+}
+#poke8{
+    background-color: rgb(224, 228, 207);
+}
+#poke9{
+    background-color: rgb(211, 194, 45);
+}
+#poke10{
+    background-color: rgb(47, 70, 170);
+}
+#poke11{
+    background-color: rgb(235, 227, 193);
+}
+#poke12{
+    background-color: rgb(194, 96, 51);
+}
+
+@media screen and (max-width: 996px) {
+    .container{
+        width: 100%;
+        margin: 2rem auto;
+        display:flex;
+        gap: 10px;
+        flex-flow: column;
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+    img{
+        max-width: 20%;
+        overflow: hidden;
+    }
+    
+    .box{
+        display: flex;
+        width: 90;
+        height: auto;
+        margin: 5px;
+        align-items: center;
+        image-orientation: inherit;
+        content: inherit;
+        box-shadow: 5px 5px 3px black;
+        justify-content: space-between;
+        
+    }
+    
+     .box:hover{ 
+        background-image: url(bgbg.png) ;
+        height:auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .ball{
+        display: block;
+        width: 16%;
+    }
+
+    .name{
+        display: block;
+        font-size: 200%;
+        font-family: Play;
+        font-weight: bold;
+        color: aliceblue;
+        text-shadow: 1px 1px 5px black;
+    }
+    
+}
