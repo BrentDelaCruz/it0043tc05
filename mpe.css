@@ -1,134 +1,237 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 700;
+    text-shadow: black 3px 3px 1px;
+    font-family: sans-serif;
 }
 
-img{
+.image img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.flex-container {
+    background-image: url("blue.jpg");
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    padding: 15px;
+    border: 3px solid black;
+    margin: 50px auto;
+    gap: 10px;
+}
+
+.box {
     width: 100%;
-}
-
-.body{
-    background-image: url(bg.png);
+    padding: 10px;
+    border: 3px solid black;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-
-}
-
-.flex-container{
-    border: 3px solid rgb(24, 65, 24);
-    padding: 90px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 50px;
-    gap: 10px; 
-
-}
-
-.box{
-    width: 250px;
-    flex-grow: 1;
-    border: 2px rgb(122, 15, 15);
-    color:rgb(251, 255, 255);
-    padding: 20px;
-    text-align: center;
     border-radius: 10px;
+    gap: 10px;
 }
 
-#poke1{
-    background-color: rgb(238, 255, 0);
+.box .name {
+    display: none;
+    text-align: center;
+    font-size: 25px;
 }
 
-#poke2{
-    background-color: rgb(226, 196, 162);
+.box .poke {
+    display: none;
 }
-#poke3{
-    background-color: rgb(146, 32, 180);
+
+.box .type {
+    display: none;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    order: 2;
+    width: 50%;
+    height: 10%;
 }
-#poke4{
+
+.type.normal {
+    background-color: #9fa19f;
+}
+
+.type.fairy {
+    background-color: #ef70ef;
+}
+
+.type.psychic {
+    background-color: #ef4179;
+}
+
+.type.fighting {
+    background-color: #ff8000;
+}
+
+.type.bug {
+    background-color: #91a119;
+}
+
+.type.poison {
+    background-color: #9141cb;
+}
+
+.type.flying {
+    background-color: #81b9ef;
+}
+
+.type.ghost {
+    background-color: #704170;
+}
+
+.type.fire {
+    background-color: #ff8000;
+}
+
+.type.electric {
+    background-color: #f0e68c;
+}
+
+#poke1 {
+    background-color: rgb(223, 192, 20);
+}
+
+#poke2 {
+    background-color: rgb(247, 203, 154);
+}
+
+#poke3 {
+    background-color: rgb(240, 210, 145);
+}
+
+#poke4 {
     background-color: rgb(226, 181, 224);
 }
-#poke5{
-    background-color: rgb(76, 29, 204);
+
+#poke5 {
+    background-color: rgb(90, 67, 224);
 }
-#poke6{
+
+#poke6 {
     background-color: rgb(119, 224, 250);
 }
-#poke7{
+
+#poke7 {
     background-color: rgb(55, 170, 116);
 }
-#poke8{
+
+#poke8 {
     background-color: rgb(224, 228, 207);
 }
-#poke9{
+
+#poke9 {
     background-color: rgb(211, 194, 45);
 }
-#poke10{
+
+#poke10 {
     background-color: rgb(47, 70, 170);
 }
-#poke11{
-    background-color: rgb(235, 227, 193);
+
+#poke11 {
+    background-color: rgb(202, 190, 135);
 }
-#poke12{
+
+#poke12 {
     background-color: rgb(194, 96, 51);
 }
 
-@media screen and (max-width: 996px) {
-    .container{
-        width: 100%;
-        margin: 2rem auto;
-        display:flex;
-        gap: 10px;
-        flex-flow: column;
-        flex-wrap: wrap;
-        justify-items: center;
+@media (max-width: 1500px) {
+    .flex-container {
+        grid-template-columns: repeat(3, 1fr); 
     }
-    img{
-        max-width: 20%;
-        overflow: hidden;
+}
+
+@media (max-width: 1150px) {
+    .flex-container {
+        grid-template-columns: repeat(2, 1fr); 
     }
-    
-    .box{
+}
+
+@media (max-width: 941px) {
+    .flex-container {
+        grid-template-columns: 1fr; 
+        align-items: flex-start;
+    }
+    .box {
         display: flex;
-        width: 90;
-        height: auto;
-        margin: 5px;
-        align-items: center;
-        image-orientation: inherit;
-        content: inherit;
-        box-shadow: 5px 5px 3px black;
         justify-content: space-between;
-        
-    }
-    
-     .box:hover{ 
-        background-image: url(bgbg.png) ;
-        height:auto;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .ball{
-        display: block;
-        width: 16%;
+        align-items: center;
     }
 
-    .name{
+    .box .name {
         display: block;
-        font-size: 200%;
-        font-family: Play;
-        font-weight: bold;
-        color: aliceblue;
-        text-shadow: 1px 1px 5px black;
+        text-align: center;
+        flex-grow: 1;
     }
-    
+    .box .image img {
+        width: 75px;
+        height: auto;
+    }
+
+    .box .poke {
+        display: block;
+        width: 50px;
+        height: 50px;
+        order: 1;
+    }
+    .box:hover {
+        transition: all 0.3s ease;
+        background-image: url("pokebg.png") !important;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: translate(0px, -8px);
+        transition: 0.2s;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        flex-direction: column;
+        width: 100%;
+    }
+    .box .type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        padding: 5px 10px;
+        margin: 5px 0;
+    }
+    .box .poke {
+        display: none;
+    }
+    .box .image img {
+        width: 200px; 
+    }
+    .box .image {
+        order: 0;
+        
+    }
+    .box .name {
+        order: 1;
+    }
+    .box:hover {
+        background-image: url("background.png") !important;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: translate(0px, -8px);
+        transition: 0.2s;
+    }
 }
