@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(forest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3c2c2;
+}
+
+#container {
+    display: flex;
+    width: 90vh;
+    border: 3px solid black;
+    height: 60vh;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.p {
+    font-family:'Times New Roman';
+    font-weight: 600;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    margin: 1.5px;
+    padding: 1.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-container {
+    background-image: url(pokeball.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    border: 7px solid black;
+    flex-wrap: wrap;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    background-image: url(cute.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #020101;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#box1,
+#box2,
+#box3 {
+    color: white;
+    border-radius: 10px;
+    background-image: url(ball.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box1 {
+    background-color: rgba(255, 192, 203, 0);
+}
+
+#box2 {
+    background-color: rgba(221, 160, 221, 0);
+}
+
+#box3 {
+    background-color: rgba(84, 228, 156, 0);
+}
+
+button {
+    padding: 5px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #63cf90;
+    color: rgb(14, 4, 4);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+}
+
+button:hover {
+    opacity: 0.7;
+    background-color: #df89d1;
+}
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .box {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+
+    #controls {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}
