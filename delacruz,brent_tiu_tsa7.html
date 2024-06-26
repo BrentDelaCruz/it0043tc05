@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-stimulator</title>
+    <link rel="stylesheet" href="tsa7.css">
+</head>
+<body>
+    <div class="box-container" id="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        </div>
+    <div id="controls">
+        <button onclick="resetFlexbox()">Reset Flexbox</button>
+        <label for="gap">Gap:
+            <input type="number" id="gap" value="0" min="0" onchange="updateGap()">
+        </label>
+        <div>
+            <p>Flex Direction</p>
+            <button onclick="setFlexDirection('row')">Row</button>
+            <button onclick="setFlexDirection('column')">Column</button>
+        </div>
+        <div>
+            <p>Justify Content</p>
+            <button onclick="setJustifyContent('flex-start')">Start</button>
+            <button onclick="setJustifyContent('center')">Center</button>
+            <button onclick="setJustifyContent('flex-end')">End</button>
+            <button onclick="setJustifyContent('space-between')">Space Between</button>
+            <button onclick="setJustifyContent('space-around')">Space Around</button>
+            <button onclick="setJustifyContent('space-evenly')">Space Evenly</button>
+        </div>
+        <div>
+            <p>Align Items</p>
+            <button onclick="setAlignItems('flex-start')">Start</button>
+            <button onclick="setAlignItems('center')">Center</button>
+            <button onclick="setAlignItems('flex-end')">End</button>
+        </div>
+        <div>
+            <p>Flex Grow</p>
+            <label for="grow">Box 1:
+                <input type="number" id="grow" value="0" min="0" onchange="updateFlexGrow(1)">
+            </label>
+            <label for="grows">Box 2:
+                <input type="number" id="grows" value="0" min="0" onchange="updateFlexGrow(2)">
+            </label>
+            <label for="growz">Box 3:
+                <input type="number" id="growz" value="0" min="0" onchange="updateFlexGrow(3)">
+            </label>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
