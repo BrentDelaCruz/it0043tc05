@@ -105,6 +105,11 @@ nav .container {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
+.logo:hover{
+    color: red;
+    transition: 0.3s ease-in-out all;
+}
+
 nav {
     height: fit-content;
     background-color: black;
@@ -221,7 +226,10 @@ nav {
         display: none;
     }
 
-
+    .logo:hover{
+        color: red;
+        transition: 0.3s ease-in-out all;
+    }
 
     .featured-article, .side-content {
         grid-column: 1/-1;
@@ -286,6 +294,11 @@ nav {
 
     #home{
         display: contents;
+    }
+
+    .logo:hover{
+        color: red;
+        transition: 0.3s ease-in-out all;
     }
 
     .featured-article, .side-content {
