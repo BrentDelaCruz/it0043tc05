@@ -260,7 +260,7 @@ nav {
     }
 }
 
-@media (max-width: 595px) {
+@media (max-width:790px) {
 
     .nav-menu {
         display: block;
