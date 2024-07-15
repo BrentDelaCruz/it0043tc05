@@ -1075,7 +1075,7 @@ footer .fa:hover {
     }
 
     .services #box3 {
-        display: flex;
+        display: none;
     }
 
     .portfolio {
@@ -1093,20 +1093,20 @@ footer .fa:hover {
     }
 }
 
-@media (max-width: 430px){
+@media (max-width: 450px){
     .services .serv-content .card {
-        width: calc(45% - 10px);
+        width: calc(55% - 10px);
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         overflow: hidden;
     }
     .services {
-        min-height: 125vh;
+        min-height:  auto;
         padding: 20px 10px;
     }
 
     .services #box3 {
-        display: flex;
+        display: none;
     }
 }
