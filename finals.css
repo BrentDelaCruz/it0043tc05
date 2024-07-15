@@ -136,12 +136,10 @@ section .title::before {
     text-underline-offset: 10px;
 }
 
-#home {
+.home {
     display: flex;
-    height: 105vh;
-    color: #fff;
-    min-height: 500px;
     background-color: rgb(34, 31, 31);
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -712,11 +710,11 @@ footer .fa:hover {
     }
 
     .home {
-        height: 90vh;
+        height: 100vh;
     }
 
     .home-img img {
-        margin-top: 90px;
+        margin-top: 120px;
         width: 28vw;
         height: 29vw;
         margin-left: 60px;
