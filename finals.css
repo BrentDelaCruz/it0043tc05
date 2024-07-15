@@ -116,10 +116,6 @@ section .title::before {
     transition: all 0.3s ease;
 }
 
-.navbar.sticky .logo a span {
-    color: #fff;
-}
-
 .navbar .menu li {
     list-style: none;
     display: inline-block;
@@ -138,10 +134,6 @@ section .title::before {
     color: #1fd960;
     text-decoration: underline #1fd960;
     text-underline-offset: 10px;
-}
-
-.navbar.sticky .menu li a:hover {
-    color: #fff;
 }
 
 .home {
