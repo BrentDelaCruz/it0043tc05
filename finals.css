@@ -136,13 +136,11 @@ section .title::before {
     text-underline-offset: 10px;
 }
 
-.home {
+#home {
     display: flex;
     height: 105vh;
-    display: flex;
     color: #fff;
     min-height: 500px;
-    font-family: sans-serif;
     background-color: rgb(34, 31, 31);
     color: #fff;
     min-height: 500px;
