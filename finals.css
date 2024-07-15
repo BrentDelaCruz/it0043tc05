@@ -107,11 +107,6 @@ section .title::before {
     background-color: #282829;
 }
 
-.navbar.sticky {
-    padding: 15px 0;
-    background: crimson;
-}
-
 .navbar .max-width {
     display: flex;
     align-items: center;
@@ -166,9 +161,7 @@ section .title::before {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.home-content .text-1,
-.text-2,
-.text-3 {
+.home-content .text-1, .text-2, .text-3 {
     color: rgb(255, 255, 255);
 }
 
